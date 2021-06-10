@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/young-lion_97429.ico">
+    <!-- ======================= UNICONS ===================== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+
+    <!--======================= FONT AWESOME =======================-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+    <!-- ================== SWIPER CSS ====================== -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- =========================== CSS ======================== -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Antony</title>
+</head>
+<body>
+    <!-- ============================= HEADER ============================= -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Antony</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uit uit-house-user nav__icon"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uit uit-shield-question nav__icon"></i>Info
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uit uit-signal-alt-3 nav__icon"></i>Habilidad
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uit uit-laptop nav__icon"></i>Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portafolio" class="nav__link">
+                            <i class="uit uit-bag nav__icon"></i>Portafolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uit uit-at nav__icon"></i>Contactos
+                        </a>
+                    </li>
+                </ul>
+                <i class="uit uit-multiply nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uit uit-toggle-off change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    
+                    <i class="uit uit-create-dashboard"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================================== MAIN ============================== -->
+    <main class="main">
+        <!-- ===================== HOME ====================== -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/antony-palomino-8965571b1" target="_blank" class="home__social-icon">
+                            <i class="uit uit-linkedin-alt"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC2URzd0GHFHQezwiBXLRbyQ" target="_blank" class="home__social-icon">
+                            <i class="uit uit-youtube"></i>
+                        </a>
+                        <a href="https://github.com/pranthony" target="_blank" class="home__social-icon">
+                            <i class="uit uit-github-alt"></i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='-24' y='-35'  xlink:href="img/me.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hola, soy Antony</h1>
+                        <h3 class="home__subtitle">Ing de Software con IA</h3>
+                        <p class="home__description">Alto nivel en el manejo de lenguajes de programación, diseño de base de datos y páginas web. </p>
+                        <a href="#contact" class="button button--flex">
+                            Contactos <i class="uit uit-telegram-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uit uit-mouse-alt-2 home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Bajar</span>
+                        <i class="uit uit-angle-double-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== ABOUT ====================== -->
+        <section class="about section " id="about">
+            <h2 class="section__title">Acerca de mi</h2>
+            <span class="section__subtitle">Me presento</span>
+
+            <div class="about__container container grid">
+                <img src="img/about.webp" alt="programando" class="about__img">
+                                
+                <div class="about__data">
+                    <p class="about__description">
+                        El desarrollo de habilidades blandas durante mi formación académica me ha permitido tener: 
+                    </p>
+                    
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Año de <br> experiencia</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Proyectos <br> completados</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Trabajo en<br> equipo</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="pdf/CV_ANTONY-PALOMINO.pdf" class="button button--flex">
+                            Descargar CV<i class="uit uit-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>                                   
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ====================== -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Mi nivel técnico</span>
+
+            <div class="skills__container container grid">
+                <!-- === SKILLS 1 === -->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uit uit-android-alt skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Desarrollador Fullstack</h1>
+                            <span class="skills__subtitle">Mas de 2 años</span>
+                        </div>
+
+                        <i class="uit uit-angle-double-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__react"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- === SKILLS 2 === -->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uit uit-layer-group skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Lenguajes de Programacion</h1>
+                            <span class="skills__subtitle">Mas de 3 años</span>
+                        </div>
+
+                        <i class="uit uit-angle-double-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Python</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__python"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Java</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__java"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">PHP</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__php"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Go</h3>
+                                <span class="skills__number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__go"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- === SKILLS 3 === -->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uit uit-shield-check skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Base de Datos</h1>
+                            <span class="skills__subtitle">Mas de 1 año</span>
+                        </div>
+
+                        <i class="uit uit-angle-double-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">SqlServer</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__sqlserver"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MySql</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mysql"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MariaDB</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mariadb"></span>
+                            </div>
+
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Oracle</h3>
+                                <span class="skills__number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__oracle"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================== QUALIFICATION ====================== -->
+        <section class="qualification section">
+            <h2 class="section__title">Calificación</h2>
+            <span class="section__subtitle">Mi viaje personal</span>
+            
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uit uit-bookmark"></i>
+                        Educación
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uit uit-bag"></i>
+                        Trabajo
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!-- Culification content 1 -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!-- qualification 1 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Desarrollo de aplicaciones web</h3>
+                                <span class="qualification__subtitle">Senati - Instituto</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!-- qualification 2 -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Algoritmia de programación</h3>
+                                <span class="qualification__subtitle">Senati - Instituto</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2023
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- qualification 3 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Lenguaje de Programación</h3>
+                                <span class="qualification__subtitle">Senati - Instituto</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!-- qualification 4 -->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Base y estructura de Datos</h3>
+                                <span class="qualification__subtitle">Senati - Instituto</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2023
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <!-- Culification content 2 -->
+                    <div class="qualification__content" data-content id="work">
+                        <!-- qualification 1 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Frelancer</h3>
+                                <span class="qualification__subtitle">Fiver</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!-- qualification 2 -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Desarrollador Backend</h3>
+                                <span class="qualification__subtitle">Workana</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2021
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- qualification 3 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Programador</h3>
+                                <span class="qualification__subtitle">Independiente</span>
+                                <div class="qualification__calendar">
+                                    <i class="uit uit-calender"></i>
+                                    2020-2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <!-- ===================== SERVICES ====================== -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Servicios</h2>
+            <span class="section__subtitle">Que ofresco</span>
+
+            <div class="services__container container grid">
+                <!-- SERVICES 1 -->
+                <div class="services__content">
+                    <div>
+                        <i class="uit uit-web-grid services__icon"></i>
+                        <h3 class="services__title">Aplicaciones <br>de escritorio</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver mas
+                        <i class="uit uit-angle-double-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Aplicaciones<br>de escritorio</h4>
+                            <i class="uit uit-multiply services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Maquetación de la aplicación</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Desarrollo de la interaz grafica.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Funcionalidad de la aplicación.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Conexión a una base de datos.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <!-- SERVICES 2 -->
+                <div class="services__content">
+                    <div>
+                        <i class="uit uit-web-grid services__icon"></i>
+                        <h3 class="services__title">Aplicaciones<br>Web</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver mas
+                        <i class="uit uit-angle-double-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Aplicaciones<br> web</h4>
+                            <i class="uit uit-multiply services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Diseño de del sitio web</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Proyectos modernos</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Página web estatica</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Alto performance</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <!-- SERVICES 3 -->
+                <div class="services__content">
+                    <div>
+                        <i class="uit uit-web-grid services__icon"></i>
+                        <h3 class="services__title">Aplicaciones<br>Móviles</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver mas
+                        <i class="uit uit-angle-double-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Aplicaciones<br>Movíles</h4>
+                            <i class="uit uit-multiply services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Apps multiplataformas</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Desarrolo en Java</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Diseño moderno</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uit uit-check-circle services__modal-icon"></i>
+                                    <p>Flujo rapido y eficaz</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PORTAFOLIO ====================== -->
+        <section class="portfolio section" id="portafolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Mas recientes Proyectos</span>
+        
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTAFOLIO 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio1.webp" alt="" class="portfolio__img">
+                        
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Control de pagos</h3>
+                            <p class="portfolio__description">Esta aplicación está diseñada para calcular el salario de los empleados luego de aplicarse bonificaciones y descuentos.</p>
+                            <a href="https://github.com/Shadowrunner11/AppContabilidadSenati" target="_blank" class="button button--small portfolio__button">
+                                Demo
+                                <i class="uit uit-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- PORTAFOLIO 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio3.jpeg" alt="" class="portfolio__img">
+                        
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Caja fuerte</h3>
+                            <p class="portfolio__description">Simula una aplicación bancaria donde podras hacer depositos y retiros después de haber iniciado sesión</p>
+                            <a href="https://github.com/Shadowrunner11/AppTabla" class="button button--small portfolio__button">
+                                Demo
+                                <i class="uit uit-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- PORTAFOLIO 3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio2.webp" alt="" class="portfolio__img">
+                        
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Lienzo canvas</h3>
+                            <p class="portfolio__description">Modelo de negocio que con un diseño moderno. El efecto flipcard permite mayor organización en la página web.</p>
+                            <a href="https://botz.vercel.app/" target="_blank" class="button button--small portfolio__button">
+                                Demo
+                                <i class="uit uit-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    
+                </div>
+                <div class="swiper-button-prev"></div>
+                
+                <!-- Data Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- ===================== CONTACT ME ==================== -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contactame</h2>
+            <span class="section__subtitle">Ponerse en contacto</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uit uit-telegram-alt contact__icon"></i>
+
+                        <div>
+                            <h3>Nro. Celular</h3>
+                            <span class="contact__subtitle">+51-953-192-180</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uit uit-at contact__icon"></i>
+
+                        <div>
+                            <h3>E-mail</h3>
+                            <span class="contact__subtitle">pr4ntony@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uit uit-anchor contact__icon"></i>
+
+                        <div>
+                            <h3>Ubicacion</h3>
+                            <span class="contact__subtitle">Peru-Huanuco</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                    
+                    <div>
+                        <a href="mailto:pr4ntony@gmail.com" class="button button--flex">
+                            Enviar Mensaje
+                            <i class="button__icon">-></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================== FOOTER ========================== -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Antony</h1>
+                    <span class="footer__subtitle">Ing de Software</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="portafolio" class="footer__link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="contact" class="footer__link">Contactame</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/antonyr.palominoricaldi.9/" target="_blank" class="footer__social">
+                        <i class="uit uit-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/Antony27545286?s=09" target="_blank" class="footer__social">
+                        <i class="uit uit-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.reddit.com/user/Purple_Bison_5242" target="_blank" class="footer__social">
+                        <i class="uit uit-reddit-alien-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Botz, Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- ======================== SCROLL TOP ========================== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uit uit-angle-up scrollup__icon"></i>
+    </a>
+
+    <!-- ========================== SWIPER JS ============================= -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- ============================ MAIN JS ================================ -->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
